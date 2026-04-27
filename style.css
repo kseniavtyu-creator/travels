@@ -1,0 +1,115 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px 50px;
+    color: white;
+}
+
+.menu-links {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu-item-link:hover {
+    color: #ff6f61; /* Кораловий колір при наведенні */
+}
+
+
+.hero {
+    height: 60vh;
+    background: url('img/heroback.jpg') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-info {
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.card, .destination {
+    background: white;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-img, .destination-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Важливо для правильної ширини */
+}
+
+.form-textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f61; /* Кораловий колір */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-button:hover {
+    background-color: #e55a50; /* Колір при наведенні */
+}
